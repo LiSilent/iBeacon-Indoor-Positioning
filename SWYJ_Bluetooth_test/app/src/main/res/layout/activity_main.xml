@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="30dip"
+        android:text="扫描设备"
+        android:id="@+id/scan_dev_btn" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="100dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginBottom="300dip">
+    </ListView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity = "center|top"
+        android:textSize="50sp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="440dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginBottom="40dip" />
+</RelativeLayout>
